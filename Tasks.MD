@@ -58,25 +58,16 @@ Install Kubernetes Cluster in version 1.32
 - Use vagrant to crate our cluster nodes
 - Install and cobfigure Kubernetes with kubeadm
 
-</details>
-
-### Task 4
-
-Install and configure Kata container and gVisor
-
-- Install gVisor
-- Configure Docker/ContainerD to run with gVisor
-- Install Kata
-- Configure Docker/ContainerD to run with Kata
 
 <details>
         <summary>Hint</summary>
 
 Kubernetes installation guide `https://v1-33.docs.kubernetes.io/docs/setup/production-environment/tools/kubeadm/`
+Additional guide `https://www.fortaspen.com/install-kubernetes-containerd-ubuntu-linux-22-04/`
 
 </details>
 
-### Task 5
+### Task 4
 Install Kubernetes Dashboard
 
 - Install Kubernetes Dashboard
@@ -92,11 +83,11 @@ Kubernetes DAshboard installation guide `https://kubernetes.io/docs/tasks/access
 
 </details>
 
-### Task 6 
+### Task 5
 
 Upgrade Kubernetes Cluster to version 1.33
 
-### Task 7
+### Task 6
 
 Handling Linux users
 
@@ -115,20 +106,20 @@ usermod -s /usr/sbin/nologin sam
 
 </details>
 
-### Task 8 
+### Task 7
 
 - Enable Audit logs on cluster
 
 
-### Task 9
+### Task 8
 
 - Create PSA for default namespace in warn mode with restricted profile
 - Create Privilaged prod and observe events
 
-### Task 10
+### Task 9
 
 - Verfy ETCD configuraion in Kubernetes cluster 
 
-### Task 11
+### Task 10
 
 - Performe CIS Bencharm on cluster with tool `kube-bench`
