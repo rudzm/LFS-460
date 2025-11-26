@@ -2,6 +2,7 @@
 
 Workign with SBOM
 
+- Install docker
 - Download the `Syft` tool and move the binary to `/usr/local/bin`.
 - Generate an SBOM for the `docker.io/nginx:latest` image in SPDX format using Syft and store it in `/tmp/webapp-spdx.sbom`.
 - Generate an SBOM for the `docker.io/nginx:latest` image in CycloneDX JSON format using Syft and store it in `/tmp/webapp-sbom.json`.
