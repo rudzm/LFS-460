@@ -113,3 +113,21 @@ usermod -s /usr/sbin/nologin sam
 ```
 
 </details>
+
+### Task 8 
+
+- Enable Audit logs on cluster
+
+
+### Task 9
+
+- Create PSA for default namespace in warn mode with restricted profile
+- Create Privilaged prod and observe events
+
+### Task 10
+
+- Verfy ETCD configuraion in Kubernetes cluster 
+
+### Task 11
+
+- Performe CIS Bencharm on cluster with tool `kube-bench`
